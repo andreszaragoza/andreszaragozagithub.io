@@ -1,0 +1,327 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">AZ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio"onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-esponsive" onclick="mostrarOcultaMenu()"">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="IMG/IMG-20220326-WA0029.jpg" class="circulo" alt="">
+            </div>
+            <h1>ANDRÉS ZARAGOZA</h1>
+            <h2>Ingeniero y Pogramador Junior</h2>
+            <div class="redes">
+                <a href="https://www.tiktok.com/@elmaracucho007" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/andres-miguel-zaragoza-quintero-bb869a123/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/andreszaragoza" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Andrés Zaragoza.</span>Soy ingeniero técnico industrial con formación constante en informática.
+                Prácticas de programación y desarrollo de software. tengo un solido
+                experiencia en ciencias y matemáticas con un gran interés en la computadora
+                ciencia.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            29-12-1993
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            695-96-60-86
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            zaragozaquintero@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            25 Ribavadia , Madrid 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Freenlance
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Videojuegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-video"></i>
+                            <span>Edición</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>Musica</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a download="Cv" href="./Andrés ZaragozaCv.pdf">Descargar CV</a><i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capcut</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col-izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Web Developer</h4>
+                        <span class="casa">Openbootcamp</span>
+                        <span class="fecha">2022</span>
+                        <p>Html y CSS</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Lenguajes de Programacion</h4>
+                        <span class="casa">Openbootcamp</span>
+                        <span class="fecha">2022-2023</span>
+                        <p>Javascript y Python</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria</h4>
+                        <span class="casa">Universidad Rafael Belloso Chacin</span>
+                        <span class="fecha">2011-2015</span>
+                        <p>Ingenieria industrial</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Front End Developer</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2022</span>
+                        <p>-Formulario con contacto y registro. Totalmente responsive, usando animaciones, CSS GRID y FLEBOX.</p>
+                        <p>-Programé un codigo de un automatizador de regalos , usando javascript.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Python</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2023</span>
+                        <p>-Programé un videojuego, atraves de la libreria Pygame donde creamos una pantalla de juego , distintos personajes y ademas asignandole movimiento ,sonidos y efectos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Developer Web</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2023</span>
+                        <p>Maquetación de la home inicial de Coinbase con HTML,CSS y TypeScript.</p>
+                        <p>Maquetacion de la home incial de varios supermercados con HTML,CSS Y Javascript</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="IMG/Crea-una-página-web-3.png" alt="">
+                    <div class="overlay">
+                        <h3>Formulario</h3>
+                        <p>Animado</p>
+                        <a href="https://github.com/andreszaragoza/Formulario-animado"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Coinbase.png" alt="">
+                    <div class="overlay">
+                        <h3>Coinbase </h3>
+                        <p>Maqueta</p>
+                        <a href="https://github.com/andreszaragoza/14-15-Proyecto/tree/main"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Invasion Espacial.png" alt="">
+                    <div class="overlay">
+                        <h3>Invasion Espacial</h3>
+                        <p>Pygame</p>
+                        <a href="https://github.com/andreszaragoza/Pygame"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <form action="https://formsubmit.co/zaragozaquintero@gmail.com" method="POST" />
+                    <input type="text" name="name" required placeholder="Tu Nombre">
+                    <input type="email" name="email" required placeholder="Correo">
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                </div>
+            </div>
+    
+    
+    <script src="/script.js"></script>
+</body>
+</html>
